@@ -1,0 +1,230 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Open Masters Championship 2019 | 7th Sherdley Park</title>
+	<style type="text/css">
+		html, body {height: 50%;}
+
+		body {background:url('sherdley-2.jpg') no-repeat; background-size: 210%; background-position: 79% 65%;}
+		/*body {background:url('sherdley-1.jpg') no-repeat; background-size: 210%; background-position: 25% 60%;}*/
+
+		#desktop, #mobile {display: none;}
+
+		/* DESKTOP */
+		#desktop {
+			font-family: "Lato";
+			height: 500px;
+			margin: 0 auto;
+			position: relative;
+			width: 60%;
+			/*background-color: #034B95;
+			padding: 20px;*/
+		}
+
+		/* MOBILE */
+		#mobile {
+			background-size: 100%;
+			font-family: helvetica;
+			margin: 0 auto;
+			overflow: hidden;
+			position: relative;
+			width: 94%;
+			margin-top: 1%;
+		}		
+
+		@media (min-width: 0px) and (max-width: 736px) {
+			body {margin: 0;}
+			body #mobile {display: block;}
+		}
+
+		@media (min-width: 737px) and (max-width: 100000px) {
+			body #desktop {display: block;}
+		}
+
+		table {
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 1%;
+		    font-size: 13px;
+		    color: #FFF;
+		    background-color: #034B95;
+		    opacity: 0.9;
+		    letter-spacing: 1px
+		}
+
+		#desktop td.column-1 {
+			width: 0.3%;
+			text-align: center;
+			background-color: #96c1ea;
+		}
+
+		#desktop td.column-2 {
+			width: 1%;
+			text-align: center;
+		}
+
+		#desktop td.column-3 {
+			width: 5%;
+		}
+
+		#desktop td.column-4 {
+			width: 0.4%;
+			text-align: center;
+			background-color: red;
+		}
+
+		#desktop td.column-5 {
+			width: 0.5%;
+			text-align: center;
+		}
+
+		#desktop td.column-6 {
+			width: 1%;
+			text-align: center;
+			background-color: #333;
+		}
+
+		#mobile td.column-1 {
+			width: 1%;
+			text-align: center;
+			background-color: #96c1ea;
+		}
+
+		#mobile td.column-2 {
+			width: 2%;
+			text-align: center;
+		}
+
+		#mobile td.column-3 {
+			width: 3%;
+		}
+
+		#mobile td.column-4 {
+			width: 1%;
+			text-align: center;
+			background-color: red;
+		}
+
+		#mobile td.column-5 {
+			width: 1%;
+			text-align: center;
+		}
+
+		#mobile td.column-6 {
+			width: 1%;
+			text-align: center;
+			background-color: #333;
+		}
+
+		.todayCell {
+			width: 11.2%;
+			padding: 2%;
+			text-align: center;
+			color: #FFF;
+			background-color: #333;
+			opacity: 0.9;
+			position: absolute;
+			top: 20.7%;
+			left: 84.4%;
+		    font-family: arial, sans-serif;
+		    border: 1px solid #dddddd;
+		}
+
+		.opacityFix {
+			opacity: 0;
+			border: 0;
+		}
+
+		img {width: 100%;}
+	</style>
+
+</head>
+<body>
+
+
+	<!-- Desktop -->
+	<div id="desktop">
+		<div style="text-align: center;"><img style="width: 30%;" src="/omc-logo-smaller.jpg"></div>
+		<table>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="/medium/british-flag.png"></td>
+				<td class="column-3">Mike Heath</td>
+				<td class="column-4">E</td>
+				<td class="column-5">8:55am</td>
+				<td class="column-6">Today E</td>
+			</tr>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="/medium/british-flag.png"></td>
+				<td class="column-3">Ben Morgan</td>
+				<td class="column-4">E</td>
+				<td class="column-5">8:55am</td>
+				<td class="column-6">Today E</td>
+			</tr>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="/medium/british-flag.png"></td>
+				<td class="column-3">Tom Prendergast</td>
+				<td class="column-4">E</td>
+				<td class="column-5">8:55am</td>
+				<td class="column-6">Today E</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+	<!-- Mobile -->
+	<div id="mobile">
+		<div style="text-align: center;"><img style="width: 40%; margin-bottom: 1vw; opacity: 0.9;" src="omc-logo-2.jpg"></div>
+
+		<!-- <div class="todayCell">Today</div> -->
+
+		<table>
+			<tr>
+				<td class="opacityFix"></td>
+				<td class="opacityFix"></td>
+				<td class="opacityFix"></td>
+				<td class="opacityFix"></td>
+				<td class="opacityFix"></td>
+				<td class="column-6">Today</td>
+			</tr>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="british-flag.png"></td>
+				<td class="column-3">Tom Prendergast</td>
+				<td class="column-4">E</td>
+				<td class="column-5">9:34am</td>
+				<td class="column-6">E</td>
+			</tr>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="british-flag.png"></td>
+				<td class="column-3">Ben Morgan</td>
+				<td class="column-4">E</td>
+				<td class="column-5">9:34am</td>
+				<td class="column-6">E</td>
+			</tr>
+			<tr>
+				<td class="column-1">1</td>
+				<td class="column-2"><img src="british-flag.png"></td>
+				<td class="column-3">Mike Heath</td>
+				<td class="column-4">E</td>
+				<td class="column-5">9:34am</td>
+				<td class="column-6">E</td>
+			</tr>
+		</table>	
+	</div>
+
+</body>
+</html>
